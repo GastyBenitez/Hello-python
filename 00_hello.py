@@ -27,3 +27,6 @@ print(type(1 + 1j))  # Tipo de dato 'complex'
 print(type(True)) #Tipo de dato 'bool'
 
 
+print(type(print("Mi cadena de texto"))) #tipo 'NoneType'
+
+
