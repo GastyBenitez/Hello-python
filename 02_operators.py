@@ -21,3 +21,28 @@ print("Hola " * int(my_float))
 
 
 # Operadores Comparativos
+
+print(3 > 4)
+print(3 < 4)
+print(3 >= 4 )
+print(4 <= 4)
+print(3 == 4)
+print(3 != 4)
+print(3 > 4 == 2)
+
+
+print("Hola" > "Python")
+print("Hola" < "Python")
+print("Hola" >= "Zola" ) # Ordenación alfabetica por ASCII
+print(len("aaaa") >= len("abaa")) #Cuenta caracteres
+print("Hola" <= "Python")
+print("Hola" == "Hola")
+print("Hola" != "Python")
+
+# Operadores Logicos
+
+print(3 > 4  and "Hola" > "Python")
+print(3 > 4  or "Hola" > "Python")
+print(3 < 4 and "hola" < "Python")
+print(3 < 4 or ("Hola" < "Python" and 4 == 4))
+print(not(3 > 4))
